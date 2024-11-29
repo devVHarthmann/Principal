@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    color: white;
+    font-family: "Rethink sans";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #232323;
+}
+
+.tit {
+    margin-top: 50px;
+    width: 1100px;
+    height: 40px;
+    text-decoration: underline 2px;
+
+
+}
+
+.container {
+
+    display: flex;
+    width: 1100px;
+    height: 400px;
+
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.texto {
+    width: 600px;
+    height: 350px;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 17pt;
+}
+
+p {
+    font-size: 9pt;
+}
+
+.container img {
+    width: 400px;
+    height: 350px;
+}
+
+.resp {
+    color: #8D1C9C;
+}
+.icone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.icone img{
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+}
